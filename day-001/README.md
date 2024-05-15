@@ -16,6 +16,20 @@ Com o _cluster_ rodando, podemos subir um novo `pod` usando o comando:
 kubectl apply -f pod.yml
 ```
 
+## Removendo os recursos criados
+
+### Removendo `pod` a partir do manifesto
+
+```bash
+kubectl delete -f pod.yml
+```
+
+### Removendo _cluster_ do [`kind`][kind]
+
+```bash
+kind delete cluster --name dk8s-day-001
+```
+
 [Voltar para o `README`][readme]
 
 [kind]: https://kind.sigs.k8s.io/
