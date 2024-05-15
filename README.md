@@ -28,6 +28,7 @@ kubectl 1.29.4
 ## Curso por dias
 
 * [dia-01][dia-01]: subindo primeiro _cluster_ com [`kind`][kind] e fazendo _deploy_ do primeiro `pod`
+* [dia-02][dia-02]: realizando _deploy_ de `pod` com múltiplos _containers_, definição de volume e limitação de recursos
 
 Pode ser seguido em no 
 
@@ -35,3 +36,4 @@ Pode ser seguido em no
 [mise-guide]: https://mise.jdx.dev/getting-started.html#quickstart
 [kind]: https://kind.sigs.k8s.io/
 [dia-01]: ./day-001/README.md
+[dia-02]: ./day-002/README.md
