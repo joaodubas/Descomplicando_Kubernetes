@@ -1,0 +1,26 @@
+---
+# Created with:
+# kubectl create deployment nginx-create-deployment --image nginx --replicas 3 --dry-run=client -o yaml > created-deployment.yml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: nginx-create-deployment
+  name: nginx-create-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx-create-deployment
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: nginx-create-deployment
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        resources: {}

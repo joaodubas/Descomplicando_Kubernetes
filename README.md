@@ -29,6 +29,7 @@ kubectl 1.29.4
 
 * [dia-01][dia-01]: subindo primeiro _cluster_ com [`kind`][kind] e fazendo _deploy_ do primeiro `pod`
 * [dia-02][dia-02]: realizando _deploy_ de `pod` com múltiplos _containers_, definição de volume e limitação de recursos
+* [dia-03][dia-03]: criando `namespace` e `deployment` em conjunto com estratégias de _rollout_
 
 Pode ser seguido em no 
 
@@ -37,3 +38,4 @@ Pode ser seguido em no
 [kind]: https://kind.sigs.k8s.io/
 [dia-01]: ./day-001/README.md
 [dia-02]: ./day-002/README.md
+[dia-03]: ./day-003/README.md
