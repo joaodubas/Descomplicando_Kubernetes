@@ -151,5 +151,8 @@ Para remover o `pod` criado, executamos o comando:
 kubectl delete -f pod.yml
 ```
 
+[Voltar para o `README`][readme]
+
 [kind]: https://kind.sigs.k8s.io/
-[dia-01]: ./day-001/README.md
+[dia-01]: ../day-001/README.md
+[readme]: ../README.md
